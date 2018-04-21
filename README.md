@@ -1,5 +1,6 @@
 # AFHSearch API
 <a href="https://paypal.me/fast0n" title="Donate"><img src="https://img.shields.io/badge/Donate-PayPal-009cde.svg?style=flat-square"></a>
+[![Build Status](https://travis-ci.org/Fast0n/afhsearch-api.svg?branch=master)](https://travis-ci.org/Fast0n/afhsearch-api)
 
 ## Methods
 #### search
