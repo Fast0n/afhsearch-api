@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-  - "6.9.4"
-install:
+  - "6"
+before_script:
   - npm install cheerio
   - npm install express
   - npm install request
 script:
-  - node server.js
+  - node server.js &
   - npm test
