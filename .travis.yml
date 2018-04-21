@@ -1,5 +1,10 @@
 language: node_js
+sudo: false
 node_js:
-  - "cheerio"
-  - "express"
-  - "request"
+  - "6.9.4"
+install:
+  - npm install cheerio
+  - npm install express
+  - npm install request
+script:
+  - npm test
