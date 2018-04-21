@@ -7,4 +7,4 @@ install:
   - npm install express
   - npm install request
 script:
-  - npm test
+  - node server.js
